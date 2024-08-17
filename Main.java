@@ -55,11 +55,6 @@ public class Main extends Process{
         System.out.println("Average turnaround time = "+averageTat_f+" / "+processes.length+" = "+(averageTat_f/processes.length));
 
 
-        /*
-        need to reworck in the who come first
-        need to be sorted by Prior
-        need to redo the Average wt and tat
-       */
         //Priority
         System.out.println("\n\n2-  scheduling algorithm: Priority\n");
         System.out.println("Process\t\tPrior\t\tBT\t\tWT\t\tTAT");
